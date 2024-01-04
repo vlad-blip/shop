@@ -1,1 +1,6 @@
-html {}
+html {
+    --black: hsla(0, 0%, 18%, 1);
+    --dark-black: hsla(0, 0%, 0%, 1);
+    --gray: hsla(0, 0%, 47%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+}
