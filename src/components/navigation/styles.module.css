@@ -1,0 +1,15 @@
+.nav_links {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    font-size: 2rem;
+    column-gap: 1.6em;
+    flex-direction: row;
+}
+
+.link {
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
