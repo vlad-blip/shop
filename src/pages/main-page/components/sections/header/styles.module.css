@@ -1,0 +1,11 @@
+.heading_main {
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.heading_sub {
+    font-size: 2.8rem;
+    text-transform: none;
+    font-weight: 500;
+}
