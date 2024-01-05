@@ -1,0 +1,12 @@
+.container {
+    padding: 8rem 0;
+}
+
+.categories {
+    display: flex;
+
+    justify-content: space-between;
+    /* column-gap: 10rem; */
+    list-style: none;
+    padding-left: 0;
+}
