@@ -1,0 +1,41 @@
+.button {
+    padding: .5em 2em;
+    text-transform: uppercase;
+}
+
+.normal {
+    font-size: 2rem;
+}
+
+.small {
+    font-size: 1.2rem;
+}
+
+.primary {
+    background-color: var(--dark-black);
+    color: var(--white);
+}
+
+.primary:hover,
+.secondary:hover {
+    background-color: var(--white);
+}
+
+.primary:hover {
+    color: var(--dark-black)
+}
+
+.secondary,
+.tertiary {
+    background-color: transparent;
+}
+
+.tertiary {
+    background-color: transparent;
+    color: var(--gray);
+    border: none;
+}
+
+.tertiary:hover {
+    color: var(--black)
+}
