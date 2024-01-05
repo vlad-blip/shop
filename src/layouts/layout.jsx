@@ -1,11 +1,16 @@
-import { Outlet } from "react-router-dom";
+import propTypes from "prop-types";
+
 import Header from "../components/header/header";
 
-export default function Layout() {
+export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <Outlet />
+      {children}
     </>
   );
 }
+
+Layout.propTypes = {
+  children: propTypes.element,
+};
