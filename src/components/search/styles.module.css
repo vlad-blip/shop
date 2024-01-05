@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+.button {
+    background: none;
+    border: none;
+}
+
+.button.active {
+    border: 1px solid var(--black);
+    border-right: none;
+}
+
+.input {
+    display: none;
+    border-left: none;
+}
+
+.input.active {
+    display: inline-block;
+}
