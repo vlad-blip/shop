@@ -1,0 +1,64 @@
+.heading-1 {
+    font-size: 5.4rem;
+}
+
+.heading-2 {
+    font-size: 4.2rem;
+}
+
+.heading-3 {
+    font-size: 3.2rem;
+}
+
+.heading-4 {
+    font-size: 2rem;
+}
+
+.heading-5 {
+    font-size: 1.8rem;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+}
+
+.navigation-text {
+    font-size: 2rem;
+}
+
+.category-card-title {
+    font-size: 2rem;
+}
+
+.card-title {
+    font-size: 2.4rem;
+}
+
+.price,
+.price__crossed {
+    font-size: 2rem;
+}
+
+.price__crossed {
+    text-decoration: line-through;
+}
+
+.description__big {
+    font-size: 2.4rem;
+}
+
+.description__small {
+    font-size: 1.4rem;
+}
+
+.description__tiny {
+    font-size: 1rem;
+}
+
+.text-emphasized {
+    font-size: 1.4rem;
+}
+
+.input {
+    font-size: 1.6rem;
+}
